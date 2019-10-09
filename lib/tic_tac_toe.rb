@@ -97,7 +97,7 @@ class TicTacToe
   
   def winner
     if current_player = won?
-      @board[current_player]
+      @board[current_player[0]]
   end 
   
 end
