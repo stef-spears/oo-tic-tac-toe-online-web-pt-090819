@@ -96,7 +96,8 @@ class TicTacToe
   end 
   
   def winner
-    
+    if current_player = won?
+      
   end 
   
 end
